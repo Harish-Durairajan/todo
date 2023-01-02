@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/f6b3d6239b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="external.css">
+    <title>TODO</title>
+</head>
+<body>
+    <div class="top-container">
+        <div class = "top-left-container">
+            <div class = "top-left-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="todo">To Do    
+            </div>
+        </div>
+        <div class="top-center-container">
+            <div class="search">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+        <div class="top-right-container">
+            <div class="top-container-settings">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="top-container-question">
+                <i class="fa-solid fa-question"></i>
+            </div>
+            <div class="top-container-speaker">
+                <i class="fa-solid fa-bullhorn"></i>
+            </div>
+            <div class="top-container-name">
+                <i class="fa-solid fa-circle-h"></i>    
+            </div>
+        </div>
+    </div>
+    <div class="left-container">
+        <div class="left-menu">
+            <i class="fa-solid fa-bars"></i>         
+        </div>
+        <ul id="left-menu-category">
+            <!-- <li onclick="righContainer()"  class="left-menu-details" id="left-sun">
+                    <div class="left-menu-icon" >
+                        <i class="fa-regular fa-sun"></i>
+                    </div>
+                    <div class="left-menu-text" >
+                        <p>My Day</p>
+                    </div>
+            </li>
+            <li class="left-menu-details">
+                    <div class="left-menu-icon">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="left-menu-text">
+                        <p>Important</p>                        
+                    </div>                
+            </li>
+            <li class="left-menu-details">
+                    <div class="left-menu-icon">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <div class="left-menu-text">
+                        <p>Planned</p>
+                    </div>                
+            </li>
+            <li class="left-menu-details">
+                    <div class="left-menu-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div class="left-menu-text">
+                        <p>Assigned to me</p>
+                    </div>                
+            </li>
+            <li class="left-menu-details">
+                    <div class="left-menu-icon">
+                        <i class="fa-regular fa-flag"></i>
+                    </div>
+                    <div class="left-menu-text">
+                        <p>Flagged email</p>
+                    </div>
+            </li>
+            <li class="left-menu-details">
+                    <div class="left-menu-icon">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="left-menu-text">
+                        <p>Tasks</p>
+                    </div>
+            </li> -->
+            
+        </ul> 
+        <hr>
+        <div class="left-new-list">
+            <ul id="myList"> 
+            <div class="left-menu-icon">
+                <i class="fa-solid fa-plus"></i>
+                <div class="left-menu-text">
+                    <input id = "list" type="text" placeholder="New list">
+                </div> 
+                <div class="left-new-list-icon">
+                    <i class="fa-regular fa-square-plus"></i>
+                </div>
+             
+            </div>
+        </ul> 
+        </div>
+        <div class="left-bottom-container">
+            <div class="left-bottom-mail">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="left-bottom-calendar">
+                <i class="fa-regular fa-calendar-days"></i>
+            </div>
+            <div class="left-bottom-user">
+                <i class="fa-solid fa-user-group"></i>
+            </div>
+            <div class="left-bottom-clip">
+                <i class="fa-solid fa-paperclip"></i> 
+            </div> 
+            <div class="left-bottom-tick">
+                <i class="fa-solid fa-check"></i> 
+            </div>            
+        </div>   
+        
+    </div>
+    <div class="right-container">
+        <div class="my-day">
+            <div class="my-day-icon">
+                <i class="fa-regular fa-sun"></i>
+            </div>
+            <div class="my-day-text">
+                <p>My Day</p>
+            </div>        
+        </div>
+        <div class="current-day">
+            <p id="day"></p>
+        </div>
+        <div class="add-task">
+            <div class="right-add-icon">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="right-add-text">
+                <input id="task" type="text" placeholder="Add a task">
+            </div>   
+        </div>
+        <div class="right-icons-container">
+                <div class="right-icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+                <div class="right-icon">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <div class="right-icon">
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="right-add-button">
+                    <button>Add</button>
+                </div>
+        </div>
+            <div id="new-task">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+    
+</body>
+</html>
